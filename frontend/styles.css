@@ -1,0 +1,73 @@
+body {
+    font-family: "Fira Code", monospace;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-message {
+    justify-content: flex-end;
+    background-color: #4a5568;
+    color: white;
+    align-self: flex-end;
+}
+
+.jarvis-message {
+    justify-content: flex-start;
+    background-color: #3182ce;
+    color: white;
+    align-self: flex-start;
+}
+
+.chat-message {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    max-width: 75%;
+}
+
+.user-avatar {
+    margin-left: 0.5rem;
+    order: 2;
+}
+
+.jarvis-avatar {
+    margin-right: 0.5rem;
+}
+
+.user-text {
+    order: 1;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.chat-container .jarvis-message {
+    align-items: flex-start;
+}
+
+.chat-container .user-message {
+    align-items: flex-end;
+}
+
+.message-text {
+    display: flex;
+    align-items: center;
+}
+
+.neon-border {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #01fff4;
+    box-shadow: 0 0 5px #01fff4, 0 0 10px #01fff4, 0 0 15px #01fff4,
+        0 0 20px #01fff4;
+    outline: none;
+}
